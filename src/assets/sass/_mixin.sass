@@ -1,0 +1,25 @@
+// 長寬
+@mixin size($width,$height)
+  width: $width
+  height: $height
+// flex
+@mixin display_flex($justify-content: center,$align-items: center)
+  display: flex
+  justify-content: $justify-content
+  align-items: $align-items
+// 設定最大寬度與最小寬度
+@mixin width_size($max-width,$min-width: 320px)
+  max-width: $max-width
+  min-width: $min-width
+
+@mixin large()
+  @media screen and (max-width: 940px)
+    @content
+
+@mixin medium()
+  @media screen and (max-width: 640px)
+    @content
+
+@mixin small()
+  @media screen and (max-width: 480px)
+    @content

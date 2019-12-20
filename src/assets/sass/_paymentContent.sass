@@ -1,0 +1,38 @@
+$max-width: 610px
+
+.payment
+  +display_flex()
+  background-color: rgba($color-gray,0.2)
+.text
+  margin: 0px
+  font-size: 14px
+  color: $color-black
+  @include medium
+    text-align: left
+  @include small
+    font-weight: 500
+.payment-info, .card-info
+  +width-size($max-width)
+  +display_flex()
+  border-radius: 10px
+  background-color: $color-white
+  @include medium
+    flex-wrap: wrap
+  .info-content
+    +display_flex()
+    @include medium
+      width: 100%
+      justify-content: flex-start
+    span
+      +display_flex()
+      color: $color-blue
+      h4
+        margin: 0px
+        font-size: 24px
+        @include medium
+          font-size: 22px
+      h3
+        margin: 0px
+        font-size: 30px
+        @include medium
+          font-size: 22px

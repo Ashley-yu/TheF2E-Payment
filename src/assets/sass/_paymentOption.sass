@@ -1,0 +1,40 @@
+// 選擇付款方式
+.option_link
+  text-decoration: none
+.option
+  +display_flex()
+  padding: 18px
+  flex-direction: column    
+  border: 2px solid $color-blue
+  border-radius: 10px
+  cursor: pointer
+  transition: 0.3s
+  @include small
+    padding: 15px 8.5px
+  .large_text
+    display: block
+    @include medium
+      display: none
+  .small_text
+    display: none
+    @include medium
+      display: block
+  p
+    font-size: 16px
+    font-weight: 500
+    color: $color-blue
+    margin: 0px
+    @include medium
+      font-size: 14px
+    @include small
+      font-size: 12px
+  &:hover,&.active
+    background-color: $color-dark-blue
+    border: 2px solid $color-dark-blue
+    p
+      color: $color-white
+  img
+    @include medium
+      +size(60%,60%)
+    @include small
+      +size(80%,80%)
