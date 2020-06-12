@@ -69,7 +69,6 @@ export default {
   padding: 25px 23.5px 25px 26px
   margin-top: 25px
   margin-bottom: 184px
-  // margin-bottom: 28px
   @include medium
     flex-direction: row
     width: 96.5%

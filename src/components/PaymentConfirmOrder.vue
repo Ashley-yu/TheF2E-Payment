@@ -91,7 +91,6 @@ export default {
         newTotal += this.order.products[i].sum
       }
       // 設值
-      // th is.$set(this.order, 'finalTotal', newTotal)
       return newTotal
     }
   },

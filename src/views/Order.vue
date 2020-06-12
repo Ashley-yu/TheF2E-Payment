@@ -12,16 +12,13 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import PaymentTop from '@/components/PaymentTop.vue'
-// import PaymentStatusBar from '@/components/PaymentStatusBar.vue'
 import PaymentFooter from '@/components/PaymentFooter.vue'
 
 export default {
   name: 'Order',
   components: {
     PaymentTop,
-    // PaymentStatusBar,
     PaymentFooter
   }
 }

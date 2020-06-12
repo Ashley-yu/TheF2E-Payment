@@ -7,7 +7,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import PaymentStatusBar from '@/components/PaymentStatusBar.vue'
 import PaymentMethod from '@/components/PaymentMethod.vue'
 import PaymentByShop from '@/components/PaymentByShop.vue'

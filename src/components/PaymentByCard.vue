@@ -191,7 +191,6 @@ export default {
           max-width: 60%
         @include small
           max-width: 100%
-          // max-width: 270px
       input[type="password"]
         letter-spacing: 1px
         font-family: 微軟正黑體,Noto Sans TC,sans-serif
